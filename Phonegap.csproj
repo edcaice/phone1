@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9B62D01B-12F1-4AE8-A91B-96A7A9EC8822}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Phonegap</RootNamespace>
+    <AssemblyName>Phonegap</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\index.css" />
+    <Content Include="css\owl.carousel.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\swipebox.css" />
+    <Content Include="Index.html" />
+    <Content Include="Menu.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\1.png" />
+    <Content Include="images\banner1.jpg" />
+    <Content Include="images\banner12.jpg" />
+    <Content Include="images\banner2.jpg" />
+    <Content Include="images\icons.svg" />
+    <Content Include="images\img-sprite.png" />
+    <Content Include="images\n1.jpg" />
+    <Content Include="images\n2.jpg" />
+    <Content Include="images\pc.jpg" />
+    <Content Include="images\pc1.jpg" />
+    <Content Include="images\pc2.jpg" />
+    <Content Include="images\pc3.jpg" />
+    <Content Include="images\pc4.jpg" />
+    <Content Include="images\pc5.jpg" />
+    <Content Include="images\pc6.jpg" />
+    <Content Include="images\pc7.jpg" />
+    <Content Include="images\pc8.jpg" />
+    <Content Include="images\plus.png" />
+    <Content Include="images\t-1.jpg" />
+    <Content Include="images\t-2.jpg" />
+    <Content Include="images\t1.jpg" />
+    <Content Include="images\t2.jpg" />
+    <Content Include="images\t3.jpg" />
+    <Content Include="images\t4.jpg" />
+    <Content Include="images\to-top.png" />
+    <Content Include="js\bars.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\controls.js" />
+    <Content Include="js\easing.js" />
+    <Content Include="js\jquery-1.11.1.min.js" />
+    <Content Include="js\jquery.filterizr.js" />
+    <Content Include="js\jquery.progress.js" />
+    <Content Include="js\jquery.swipebox.min.js" />
+    <Content Include="js\move-top.js" />
+    <Content Include="js\owl.carousel.js" />
+    <Content Include="js\responsiveslides.min.js" />
+    <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.7.1.js" />
+    <Content Include="Scripts\jquery-1.7.1.min.js" />
+    <Content Include="Tourvirtual.aspx" />
+    <Content Include="Tourvirtualdata\dos_11\0\0\0_0.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\0\0\0_1.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\0\0\1_0.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\0\0\1_1.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\1\0\0_0.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\1\0\0_1.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\1\0\1_0.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\1\0\1_1.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\2\0\0_0.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\2\0\0_1.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\2\0\1_0.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\2\0\1_1.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\3\0\0_0.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\3\0\0_1.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\3\0\1_0.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\3\0\1_1.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\4\0\0_0.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\4\0\0_1.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\4\0\1_0.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\4\0\1_1.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\5\0\0_0.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\5\0\0_1.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\5\0\1_0.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\5\0\1_1.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\html5\0.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\html5\1.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\html5\2.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\html5\3.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\html5\4.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\html5\5.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\mobile\0.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\mobile\1.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\mobile\2.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\mobile\3.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\mobile\4.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\mobile\5.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\preview.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\tablet\0.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\tablet\1.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\tablet\2.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\tablet\3.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\tablet\4.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\tablet\5.jpg" />
+    <Content Include="Tourvirtualdata\dos_11\thumbnail.jpg" />
+    <Content Include="Tourvirtualdata\graphics\Cardboard1.png" />
+    <Content Include="Tourvirtualdata\graphics\Cardboard2.png" />
+    <Content Include="Tourvirtualdata\graphics\ColorCrossVR.png" />
+    <Content Include="Tourvirtualdata\graphics\cursors_drag.png" />
+    <Content Include="Tourvirtualdata\graphics\cursors_drag_html5.cur" />
+    <Content Include="Tourvirtualdata\graphics\cursors_move.png" />
+    <Content Include="Tourvirtualdata\graphics\cursors_move_html5.cur" />
+    <Content Include="Tourvirtualdata\graphics\Custom.png" />
+    <Content Include="Tourvirtualdata\graphics\GearVR.png" />
+    <Content Include="Tourvirtualdata\graphics\HOMiDO.png" />
+    <Content Include="Tourvirtualdata\graphics\NoDistortion.png" />
+    <Content Include="Tourvirtualdata\graphics\rotate_device.png" />
+    <Content Include="Tourvirtualdata\graphics\textfield.swf" />
+    <Content Include="Tourvirtualdata\graphics\VRONE.png" />
+    <Content Include="Tourvirtualdata\graphics\webvr.js" />
+    <Content Include="Tourvirtualdata\graphics\webvr_cursor.png" />
+    <Content Include="Tourvirtualdata\graphics\webvr_settings.png" />
+    <Content Include="Tourvirtualdata\graphics\webvr_toggle.png" />
+    <Content Include="Tourvirtualdata\graphics\_360-degree-virtual-tour.png" />
+    <Content Include="Tourvirtualdata\lib\jquery-1.11.1.min.js" />
+    <Content Include="Tourvirtualdata\lib\jquery-2.1.1.min.js" />
+    <Content Include="Tourvirtualdata\spots\hotspot_neutral_user_defaultmap0.png" />
+    <Content Include="Tourvirtualdata\spots\hotspot_neutral_user_defaultpoint0.png" />
+    <Content Include="Tourvirtualdata\spots\hotspot_plan_user_defaultpoint0.png" />
+    <Content Include="Tourvirtualdata\thumbnail.jpg" />
+    <Content Include="Tourvirtualdata\Tourvirtual.js" />
+    <Content Include="Tourvirtualdata\Tourvirtual.swf" />
+    <Content Include="Tourvirtualdata\Tourvirtual.xml" />
+    <Content Include="Tourvirtualdata\Tourvirtual_core.xml" />
+    <Content Include="Tourvirtualdata\Tourvirtual_core_vr.xml" />
+    <Content Include="Tourvirtualdata\Tourvirtual_messages_en.xml" />
+    <Content Include="Tourvirtualdata\Tourvirtual_skin.xml" />
+    <Content Include="Tourvirtualdata\Tourvirtual_skin_vr.xml" />
+    <Content Include="Tourvirtualdata\Tourvirtual_vr.xml" />
+    <Content Include="Tourvirtualdata\uno_9\0\0\0_0.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\0\0\0_1.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\0\0\1_0.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\0\0\1_1.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\1\0\0_0.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\1\0\0_1.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\1\0\1_0.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\1\0\1_1.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\2\0\0_0.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\2\0\0_1.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\2\0\1_0.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\2\0\1_1.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\3\0\0_0.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\3\0\0_1.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\3\0\1_0.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\3\0\1_1.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\4\0\0_0.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\4\0\0_1.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\4\0\1_0.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\4\0\1_1.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\5\0\0_0.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\5\0\0_1.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\5\0\1_0.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\5\0\1_1.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\html5\0.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\html5\1.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\html5\2.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\html5\3.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\html5\4.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\html5\5.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\mobile\0.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\mobile\1.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\mobile\2.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\mobile\3.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\mobile\4.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\mobile\5.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\preview.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\tablet\0.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\tablet\1.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\tablet\2.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\tablet\3.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\tablet\4.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\tablet\5.jpg" />
+    <Content Include="Tourvirtualdata\uno_9\thumbnail.jpg" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Menu.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.aspx.designer.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tourvirtual.aspx.cs">
+      <DependentUpon>Tourvirtual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tourvirtual.aspx.designer.cs">
+      <DependentUpon>Tourvirtual.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>9661</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:9661/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
